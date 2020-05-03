@@ -1,0 +1,70 @@
+.game {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .body {
+    display: flex;
+  }
+  
+  .help {
+    color: #666;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .left {
+    text-align: center;
+    width: 50%;
+    border: thin solid #ddd;
+  }
+  
+  .right {
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    border: thin solid #ddd;
+  }
+  
+  .star {
+    display: inline-block;
+    margin: 15px 15px 0px 15px;
+  }
+  
+  .star:after {
+    content: "\2605";
+    font-size: 45px;
+  }
+  
+  .number {
+    background-color: #eee;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    font-size: 25px;
+  }
+  
+  .number:focus, .number:active {
+    outline: none;
+    border: thin solid #ddd;
+  }
+
+  .play-button {
+      background-color: #274060;
+      font-size: 15px;
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: bold;
+  }
+  
+  .timer {
+    color: #666;
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+  
+  .game-done .message {
+    font-size: 250%;
+    font-weight: bold;
+    margin: 15px;
+  }
